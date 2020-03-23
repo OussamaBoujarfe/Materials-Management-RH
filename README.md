@@ -42,7 +42,7 @@ We would like to extend our thanks to the following sponsors for helping fund on
 First , Install 'Composer' for Dependencies , 
 then ,Install 'XAMPP' for Database Management System  
 then ,Run this Command:  composer create-project --prefer-dist laravel/management "5.4.*" in CMD
--there a db file Called 'Manager.sql' , first create a database by Xampp and name it "Manager", after that Import  the file Manager.sql into that created database .
+<br>there a db file Called 'Manager.sql' , first create a database by Xampp and name it "Manager", after that Import  the file Manager.sql into that created database .
 then use a code editor , I usualy use VS code , open the project folder , go to the terminal , and write 'Php artisan serve' . 
 
 Hope this helps.
