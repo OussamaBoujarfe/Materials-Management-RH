@@ -38,9 +38,14 @@ We would like to extend our thanks to the following sponsors for helping fund on
 - [Fragrantica](https://www.fragrantica.com)
 - [SOFTonSOFA](https://softonsofa.com/)
 
-## Contributing
+## About the project
+First , Install 'Composer' for Dependencies , 
+then ,Install 'XAMPP' for Database Management System  
+then ,Run this Command:  composer create-project --prefer-dist laravel/management "5.4.*" in CMD
+-there a db file Called 'Manager.sql' , first create a database by Xampp and name it "Manager", after that Import  the file Manager.sql into that created database .
+then use a code editor , I usualy use VS code , open the project folder , go to the terminal , and write 'Php artisan serve' . 
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
+Hope this helps.
 
 ## Security Vulnerabilities
 
